@@ -1,4 +1,4 @@
-/cache
+/cache/*.spc
 /custom/config.yml
 /custom/people.opml
 /custom/people.opml.bak
