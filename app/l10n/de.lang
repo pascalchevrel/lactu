@@ -14,8 +14,8 @@ Cache löschen:
 Löschen
 
 
-;Clearing the cache will make moonmoon reload all feeds.
-Wenn der Cache gelöscht wird, werden alle Feeds von moonmoon neu geladen.
+;Clearing the cache will make Lactu reload all feeds.
+Wenn der Cache gelöscht wird, werden alle Feeds von Lactu neu geladen.
 
 
 ;Change administrator password
@@ -38,8 +38,8 @@ Feed hinzufügen
 Link:
 
 
-;Accepted formats are RSS and ATOM. If the link is not a feed, moonmoon will try to autodiscover the feed.
-Akzeptierte  Formate sind RSS und ATOM. Wenn der link kein Feed ist, wird moonmoon versuchen, den Feed selbst zu finden.
+;Accepted formats are RSS and ATOM. If the link is not a feed, Lactu will try to autodiscover the feed.
+Akzeptierte  Formate sind RSS und ATOM. Wenn der link kein Feed ist, wird Lactu versuchen, den Feed selbst zu finden.
 
 
 ;Manage existing feeds
@@ -105,8 +105,8 @@ Passwort:
 OK
 
 
-;moonmoon administration
-moonmoon Administration
+;Lactu administration
+Lactu Administration
 
 
 ;Back to main page
@@ -125,8 +125,8 @@ Feeds
 Administration
 
 
-;Powered by <a %s>moonmoon</a>
-Powered by <a %s>moonmoon</a>
+;Powered by <a %s>Lactu</a>
+Powered by <a %s>Lactu</a>
 
 
 ;No article
@@ -193,16 +193,16 @@ Alle Schlagzeilen ansehen
 Quelle:
 
 
-;You might want to <a href="install.php">install moonmoon</a>.
-Sie könnten  <a href="install.php">moonmoon installieren</a> wollen.
+;You might want to <a href="install.php">install Lactu</a>.
+Sie könnten  <a href="install.php">Lactu installieren</a> wollen.
 
 
-;moonmoon installation
-moonmoon Installation
+;Lactu installation
+Lactu Installation
 
 
-;Congratulations! Your moonmoon is ready.
-Gratulation! Ihr moonmoon ist bereit.
+;Congratulations! Your Lactu is ready.
+Gratulation! Ihr Lactu ist bereit.
 
 
 ;What's next?

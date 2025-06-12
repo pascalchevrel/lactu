@@ -14,8 +14,8 @@ Vider le cache &nbsp;:
 Vider
 
 
-;Clearing the cache will make moonmoon reload all feeds.
-Vider le cache forcera moonmoon à recharger tous les flux.
+;Clearing the cache will make Lactu reload all feeds.
+Vider le cache forcera Lactu à recharger tous les flux.
 
 
 ;Change administrator password
@@ -38,8 +38,8 @@ Ajouter un flux
 Lien&nbsp;:
 
 
-;Accepted formats are RSS and ATOM. If the link is not a feed, moonmoon will try to autodiscover the feed.
-Les formats valides sont RSS et ATOM. Si le lien n'est pas un flux, moonmoon essaiera de trouver le flux automatiquement.
+;Accepted formats are RSS and ATOM. If the link is not a feed, Lactu will try to autodiscover the feed.
+Les formats valides sont RSS et ATOM. Si le lien n'est pas un flux, Lactu essaiera de trouver le flux automatiquement.
 
 
 ;Manage existing feeds
@@ -106,8 +106,8 @@ Mot de passe&nbsp;:
 OK {ok}
 
 
-;moonmoon administration
-Administration de moonmoon
+;Lactu administration
+Administration de Lactu
 
 
 ;Back to main page
@@ -126,8 +126,8 @@ Flux
 Administration {ok}
 
 
-;Powered by <a %s>moonmoon</a>
-Propulsé par <a %s>moonmoon</a>
+;Powered by <a %s>Lactu</a>
+Propulsé par <a %s>Lactu</a>
 
 
 ;No article
@@ -194,16 +194,16 @@ Afficher tous les titres
 Source&nbsp;:
 
 
-;You might want to <a href="install.php">install moonmoon</a>.
-Vous voulez probablement <a href="install.php">installer moonmoon</a>.
+;You might want to <a href="install.php">install Lactu</a>.
+Vous voulez probablement <a href="install.php">installer Lactu</a>.
 
 
-;moonmoon installation
-Installation de moonmoon
+;Lactu installation
+Installation de Lactu
 
 
-;Congratulations! Your moonmoon is ready.
-Félicitations&nbsp;! Votre moonmoon est prêt.
+;Congratulations! Your Lactu is ready.
+Félicitations&nbsp;! Votre Lactu est prêt.
 
 
 ;What's next?

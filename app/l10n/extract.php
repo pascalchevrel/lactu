@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This is a file parser to extract localizable strings from moonmoon
+ * This is a file parser to extract localizable strings from Lactu
  *
- * It will scan the whole moonmoon repository for php files, extract
+ * It will scan the whole lactu repository for php files, extract
  * localized strings and their localization notes and create .lang files.
  * Existing translations will be automatically updated.
  * A short report will be displayed afterwards.

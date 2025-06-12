@@ -19,8 +19,8 @@ Clear
 
 
 # Translation note:  ** String needs translation **
-;Clearing the cache will make moonmoon reload all feeds.
-Clearing the cache will make moonmoon reload all feeds.
+;Clearing the cache will make Lactu reload all feeds.
+Clearing the cache will make Lactu reload all feeds.
 
 
 # Translation note:  ** String needs translation **
@@ -49,8 +49,8 @@ Link:
 
 
 # Translation note:  ** String needs translation **
-;Accepted formats are RSS and ATOM. If the link is not a feed, moonmoon will try to autodiscover the feed.
-Accepted formats are RSS and ATOM. If the link is not a feed, moonmoon will try to autodiscover the feed.
+;Accepted formats are RSS and ATOM. If the link is not a feed, Lactu will try to autodiscover the feed.
+Accepted formats are RSS and ATOM. If the link is not a feed, Lactu will try to autodiscover the feed.
 
 
 # Translation note:  ** String needs translation **
@@ -133,8 +133,8 @@ OK
 
 
 # Translation note:  ** String needs translation **
-;moonmoon administration
-moonmoon administration
+;Lactu administration
+Lactu administration
 
 
 # Translation note:  ** String needs translation **
@@ -158,8 +158,8 @@ Administration
 
 
 # Translation note:  ** String needs translation **
-;Powered by <a %s>moonmoon</a>
-Powered by <a %s>moonmoon</a>
+;Powered by <a %s>Lactu</a>
+Powered by <a %s>Lactu</a>
 
 
 # Translation note:  ** String needs translation **
@@ -243,18 +243,18 @@ Source:
 
 
 # Translation note:  ** String needs translation **
-;You might want to <a href="install.php">install moonmoon</a>.
-You might want to <a href="install.php">install moonmoon</a>.
+;You might want to <a href="install.php">install Lactu</a>.
+You might want to <a href="install.php">install Lactu</a>.
 
 
 # Translation note:  ** String needs translation **
-;moonmoon installation
-moonmoon installation
+;Lactu installation
+Lactu installation
 
 
 # Translation note:  ** String needs translation **
-;Congratulations! Your moonmoon is ready.
-Congratulations! Your moonmoon is ready.
+;Congratulations! Your Lactu is ready.
+Congratulations! Your Lactu is ready.
 
 
 # Translation note:  ** String needs translation **

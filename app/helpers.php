@@ -1,29 +1,6 @@
 <?php
 
 /**
- * Register polyfills for old PHP versions.
- * 
- * This way, the real function will only be called if it
- * is available, and we won't force the use of our own 
- * implementation.
- */
-function register_polyfills()
-{
-    if (!function_exists('hash_equals')) {
-        function hash_equals($known_string, $user_string) {
-            call_user_func_array('_hash_equals', func_get_args());
-        }
-    }
-
-    if (!function_exists('random_bytes')) {
-        // If this function does not exist, it will be exposed
-        // automatically by paragonie/random_compat.
-    }
-}
-
-register_polyfills();
-
-/**
  * Path to the _custom_ directory.
  *
  * @param  string $file Append this filename to the returned path.
@@ -57,7 +34,7 @@ function admin_path($file = '')
 }
 
 /**
- * Is moonmoon installed?
+ * Is Lactu installed?
  *
  * @return bool
  */
@@ -79,7 +56,7 @@ function _g($str, $comment='')
 }
 
 /**
- * Reset the moonmoon instance.
+ * Reset the Lactu instance.
  */
 function removeCustomFiles()
 {

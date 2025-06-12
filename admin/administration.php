@@ -26,7 +26,7 @@ $page_content = <<<"FRAGMENT"
                 <form action="purgecache.php" method="post" id="frmPurge">
                     <input type="hidden" value="{$csrf->generate('frmPurge')}" name="_csrf">
                     <p><label>{$l10n->getString('Clear cache:')}</label><input type="submit" class="submit delete" name="purge" id="purge" value="{$l10n->getString('Clear')}" /></p>
-                    <p class="help">{$l10n->getString('Clearing the cache will make moonmoon reload all feeds.')}</p>
+                    <p class="help">{$l10n->getString('Clearing the cache will make Lactu reload all feeds.')}</p>
                 </form>
             </div>
 

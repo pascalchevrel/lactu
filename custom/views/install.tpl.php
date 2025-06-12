@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8"/>
 <head>
-    <title><?=_g('moonmoon installation')?></title>
+    <title><?=_g('lactu installation')?></title>
     <style>
         body {
             font: normal 1em sans-serif;
@@ -36,11 +36,11 @@
 </head>
 
 <body>
-<h1><?=_g('moonmoon installation')?></h1>
+<h1><?=_g('lactu installation')?></h1>
 
 <?php if ($status == 'error') : ?>
     <div id="compatibility">
-        <h2>Sorry, your server is not compatible with moonmoon.</h2>
+        <h2>Sorry, your server is not compatible with Lactu.</h2>
 
         <h3>Your server does not fulfill the requirements</h3>
         <table>
@@ -56,7 +56,7 @@
         </table>
 
         <h3>Troubleshooting</h3>
-        <p>To install moonmoon, try the following changes:</p>
+        <p>To install Lactu, try the following changes:</p>
         <ul>
             <?php echo $strRecommendation; ?>
         </ul>
@@ -104,7 +104,7 @@
 
 <?php elseif ($status =='installed'): ?>
 
-    <p><?=_g('Congratulations! Your moonmoon is ready.')?></p>
+    <p><?=_g('Congratulations! Your Lactu is ready.')?></p>
     <h3><?=_g("What's next?")?></h3>
     <ol>
         <li>

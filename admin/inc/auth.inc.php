@@ -1,7 +1,5 @@
 <?php
-
 include dirname(__FILE__).'/pwd.inc.php';
-
 if (!class_exists('Planet')) {
     require __DIR__.'/../../vendor/autoload.php';
 }

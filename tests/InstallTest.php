@@ -16,11 +16,11 @@ class InstallTest extends GuzzleHarness {
         removeCustomFiles();
     }
 
-    public function test_index_page_tells_moonmoon_is_not_installed()
+    public function test_index_page_tells_lactu_is_not_installed()
     {
         $res = $this->client->get('/index.php');
         $this->assertEquals(200, $res->getStatusCode());
-        $this->assertContains('install moonmoon', (string) $res->getBody());
+        $this->assertContains('install Lactu', (string) $res->getBody());
     }
 
     public function test_install_page_loads_without_error()
@@ -56,6 +56,6 @@ class InstallTest extends GuzzleHarness {
             'form_params' => $data
         ]);
         $this->assertEquals(200, $res->getStatusCode());
-        $this->assertContains('Your moonmoon is ready.', (string) $res->getBody());
+        $this->assertContains('Your Lactu is ready.', (string) $res->getBody());
     }
 }

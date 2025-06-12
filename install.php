@@ -8,7 +8,7 @@ function installStatus($str, $msg, $result) {
     return '<tr><td>' . $str . '</td><td class="' . $class . '">' . $msg . '</td></tr>';
 }
 
-// If the config file exists and the auth variables are set, moonmoon is already installed
+// If the config file exists and the auth variables are set, lactu is already installed
 if (is_installed()) {
     $status = 'installed';
 } elseif (isset($_POST['url'])) {
@@ -68,7 +68,7 @@ if (is_installed()) {
         }
     }
 
-    // We can now decide if we install moonmoon or not
+    // We can now decide if we install lactu or not
     $status = ($strRecommendation != '') ? 'error' : 'install';
 
 }

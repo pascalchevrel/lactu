@@ -12,7 +12,7 @@ What happens instead?
 * ...
 * ...
 
-### Moonmoon version
+### Lactu version
 
-Which version of moonmoon are you using? If you don't know which one is installed,
-try open the file `VERSION` at the root of moonmoon's folder.
+Which version of Lactu are you using? If you don't know which one is installed,
+try open the file `VERSION` at the root of Lactu's folder.

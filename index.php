@@ -4,7 +4,7 @@ include_once(__DIR__.'/app/lib/Cache.php');
 
 //Installed ?
 if (!isset($Planet)) {
-    echo '<p>' . _g('You might want to <a href="install.php">install moonmoon</a>.') . '</p>';
+    echo '<p>' . _g('You might want to <a href="install.php">install Lactu</a>.') . '</p>';
     exit;
 }
 
@@ -25,7 +25,7 @@ Cache::setStore(__DIR__ . '/' . $conf['cachedir'] . '/');
 
 if (isset($_GET['type']) && $_GET['type'] == 'atom10') {
     /* XXX: Redirect old ATOM feeds to new url to make sure our users don't
-     * loose subscribers upon upgrading their moonmoon installation.
+     * loose subscribers upon upgrading their lactu installation.
      * Remove this check in a more distant future.
      */
     header('Status: 301 Moved Permanently', false, 301);

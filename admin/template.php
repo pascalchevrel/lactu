@@ -7,7 +7,7 @@
 
 <?php
     echo _g('Administration') . ' — ';
-    printf(_g('moonmoon %s', '%s is the version number for moonmoon, this string appears as the tab title in the admin panel'), $moon_version);
+    printf(_g('Lactu %s', '%s is the version number for Lactu, this string appears as the tab title in the admin panel'), $lactu_version);
 ?>
     </title>
     <link rel="stylesheet" media="screen" type="text/css" href="default.css">
@@ -22,7 +22,7 @@
 <body id="<?=@$page_id ?: ''; ?>">
     <div id="page">
         <header>
-            <h1>moonmoon</h1>
+            <h1>Lactu</h1>
             <p><a href="../"><?=_g('Back to main page')?></a></p>
         </header>
 

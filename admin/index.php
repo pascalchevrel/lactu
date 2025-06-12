@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../app/app.php';
 require_once __DIR__ . '/inc/auth.inc.php';
-
+error_log(__FILE__ . ' ' . __LINE__);
 //Load configuration
 $config_file = __DIR__ . '/../custom/config.yml';
 
@@ -78,7 +78,7 @@ ob_start();
                         <input type="text" class="text" name="url" id="url" placeholder="http://" class="text" size="50" />
                         <input type="submit" class="submit add" name="add" value="<?=_g('Add Feed')?>" />
                     </fieldset>
-                    <p class="help"><?=_g('Accepted formats are RSS and ATOM. If the link is not a feed, moonmoon will try to autodiscover the feed.')?></p>
+                    <p class="help"><?=_g('Accepted formats are RSS and ATOM. If the link is not a feed, lactu will try to autodiscover the feed.')?></p>
                 <input type="hidden" value="<?php echo $csrf->generate('feedmanage'); ?>" name="_csrf">
                 </form>
             </div>

@@ -17,9 +17,9 @@ Vaciar la cach&eacute;:
 Vaciar
 
 
-# Translation note:  Vaciar la caché hará que moonmoon recargue todas las fuentes web.
-;Clearing the cache will make moonmoon reload all feeds.
-Vaciar la cach&eacute; har&aacute; que moonmoon recargue todas las fuentes web.
+# Translation note:  Vaciar la caché hará que Lactu recargue todas las fuentes web.
+;Clearing the cache will make Lactu reload all feeds.
+Vaciar la cach&eacute; har&aacute; que Lactu recargue todas las fuentes web.
 
 
 # Translation note:  Cambiar la contraseña de administración
@@ -51,9 +51,9 @@ A&ntilde;adir fuente
 Enlace:
 
 
-# Translation note: Los formatos aceptados son RSS y ATOM. Si el enlace no es una fuente web, moonmoon tratará de encontrar la fuente de forma automática.
-;Accepted formats are RSS and ATOM. If the link is not a feed, moonmoon will try to autodiscover the feed.
-Los formatos aceptados son RSS y ATOM. Si el enlace no es una fuente web, moonmoon tratar&aacute; de encontrar la fuente de forma autom&aacute;tica.
+# Translation note: Los formatos aceptados son RSS y ATOM. Si el enlace no es una fuente web, Lactu tratará de encontrar la fuente de forma automática.
+;Accepted formats are RSS and ATOM. If the link is not a feed, Lactu will try to autodiscover the feed.
+Los formatos aceptados son RSS y ATOM. Si el enlace no es una fuente web, Lactu tratar&aacute; de encontrar la fuente de forma autom&aacute;tica.
 
 
 ;Manage existing feeds
@@ -120,9 +120,9 @@ Contrase&ntilde;a:
 Entrar
 
 
-# Translation note:  Administración de moonmoon
-;moonmoon administration
-Administraci&oacute;n de moonmoon
+# Translation note:  Administración de Lactu
+;Lactu administration
+Administraci&oacute;n de Lactu
 
 
 # Translation note:  Volver a la página principal
@@ -143,8 +143,8 @@ Fuentes
 Administraci&oacute;n
 
 
-;Powered by <a %s>moonmoon</a>
-Desarrollado por <a %s>moonmoon</a>
+;Powered by <a %s>Lactu</a>
+Desarrollado por <a %s>Lactu</a>
 
 
 # Translation note:  Sin artículos
@@ -216,18 +216,18 @@ Ver todos los titulares
 Fuente:
 
 
-;You might want to <a href="install.php">install moonmoon</a>.
-Es posible que desee <a href="install.php">instalar moonmoon</a>.
+;You might want to <a href="install.php">install Lactu</a>.
+Es posible que desee <a href="install.php">instalar Lactu</a>.
 
 
-# Translation note:  Instalación de moonmoon
-;moonmoon installation
-Instalaci&oacute;n de moonmoon
+# Translation note:  Instalación de Lactu
+;Lactu installation
+Instalaci&oacute;n de Lactu
 
 
-# Translation note:  ¡Felicidades! Su moonmoon está preparado.
-;Congratulations! Your moonmoon is ready.
-&iexcl;Felicidades! Su moonmoon est&aacute; preparado.
+# Translation note:  ¡Felicidades! Su Lactu está preparado.
+;Congratulations! Your Lactu is ready.
+&iexcl;Felicidades! Su Lactu est&aacute; preparado.
 
 
 # Translation note: ¿Y ahora?
