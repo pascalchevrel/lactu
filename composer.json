@@ -1,5 +1,5 @@
 {
-    "name": "pasaclchevrel/lactu",
+    "name": "pascalchevrel/lactu",
     "description": "lactu is a simple feed aggregator.",
     "homepage": "https://github.com/pascalchevrel/lactu/",
     "type": "project",
@@ -8,15 +8,11 @@
     "require": {
         "php": "^8.4",
         "mustangostang/spyc": "0.5.1",
-        "simplepie/simplepie": "^1.5",
-        "paragonie/random_compat": "^2.0"
+        "simplepie/simplepie": "^1.5"
     },
     "require-dev": {
         "guzzlehttp/guzzle": "^7.8",
-        "phpunit/phpunit": "^12.2"
-    },
-    "scripts": {
-        "test": ""
+        "phpunit/phpunit": "^11"
     },
     "autoload": {
         "psr-0": {

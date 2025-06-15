@@ -4,30 +4,41 @@ require_once 'GuzzleHarness.php';
 
 class InstallTest extends GuzzleHarness {
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         removeCustomFiles();
     }
 
-    public function tearDown()
+    public function tearDown():void
     {
         parent::tearDown();
         removeCustomFiles();
     }
 
-    public function test_index_page_tells_lactu_is_not_installed()
+    private function getBodyAsString(mixed $body): string
+    {
+        return ((array) (string) $body)[0];
+    }
+
+    public function test_index_page_tells_lactu_is_not_installed():void
     {
         $res = $this->client->get('/index.php');
         $this->assertEquals(200, $res->getStatusCode());
-        $this->assertContains('install Lactu', (string) $res->getBody());
+        $this->assertStringContainsString(
+            'install Lactu',
+            $this->getBodyAsString($res->getBody())
+        );
     }
 
-    public function test_install_page_loads_without_error()
+    public function test_install_page_loads_without_error():void
     {
         $res = $this->client->get('/install.php');
         $this->assertEquals(200, $res->getStatusCode());
-        $this->assertContains('Administrator password', (string) $res->getBody());
+        $this->assertStringContainsString(
+            'Administrator password',
+            $this->getBodyAsString($res->getBody())
+        );
     }
 
     /**
@@ -35,7 +46,7 @@ class InstallTest extends GuzzleHarness {
      * even if the site was not installed: `touch()` was called to see if
      * the path was writable but the file was not removed.
      */
-    public function test_get_install_page_should_not_create_custom_files()
+    public function test_get_install_page_should_not_create_custom_files():void
     {
         $this->client->get('/install.php');
         $this->assertFalse(file_exists(custom_path('people.opml')));
@@ -43,7 +54,7 @@ class InstallTest extends GuzzleHarness {
         $this->assertFalse(file_exists(custom_path('inc/pwc.inc.php')));
     }
 
-    public function test_install_button()
+    public function test_install_button():void
     {
         $data = [
             'url' => 'http://127.0.0.1:8081/',
@@ -56,6 +67,9 @@ class InstallTest extends GuzzleHarness {
             'form_params' => $data
         ]);
         $this->assertEquals(200, $res->getStatusCode());
-        $this->assertContains('Your Lactu is ready.', (string) $res->getBody());
+        $this->assertStringContainsString(
+            'Your Lactu is ready.',
+            $this->getBodyAsString($res->getBody())
+        );
     }
 }

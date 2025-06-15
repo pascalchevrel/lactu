@@ -38,7 +38,7 @@ class PlanetTest extends TestCase
     protected $planet;
     protected $items;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->planet = new Planet();
 
@@ -50,14 +50,14 @@ class PlanetTest extends TestCase
         );
     }
 
-    protected function _after()
+    protected function _after(): void
     {
         unset($this->planet);
     }
 
     public function testFilterItemsByCategoryWithInvalidCategory()
     {
-        $this->assertEquals(count($this->planet->_filterItemsByCategory($this->items, null)), count($this->items));
+        $this->assertEquals(count($this->planet->_filterItemsByCategory($this->items, '')), count($this->items));
         $this->assertEquals(count($this->planet->_filterItemsByCategory($this->items, ' ')), count($this->items));
     }
 

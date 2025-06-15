@@ -219,7 +219,7 @@ class Planet
      *
      * @return array resulting list of items
     */
-    public function _filterItemsByCategory($items, $categories = null)
+    public function _filterItemsByCategory($items, $categories = '')
     {
         $categories = trim($categories);
 

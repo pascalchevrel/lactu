@@ -4,6 +4,7 @@
 /custom/people.opml.bak
 /admin/inc/pwd.inc.php
 
+.phpunit.cache
 /vendor/
 /tests/_output/*
 
